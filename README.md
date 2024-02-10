@@ -1,1 +1,3 @@
-# GDSC
+## GDSC
+# Sentiment Analysis
+# Emotion Detector
