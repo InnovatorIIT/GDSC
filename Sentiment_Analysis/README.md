@@ -32,6 +32,7 @@ BERT, which stands for Bidirectional Encoder Representations from Transformers, 
 ### Accuracy
 
 It gave commendable results on the validation set:
+
 ![WhatsApp Image 2024-02-10 at 16 27 01_463505e1](https://github.com/InnovatorIIT/GDSC/assets/151830380/3392c9bc-af6a-451f-b504-8516d90463b2)
 
 and also, the training loss kept on decreasing on each epoch.
