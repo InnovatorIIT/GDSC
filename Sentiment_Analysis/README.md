@@ -29,5 +29,14 @@ Contracted Words and Modern Lingo were rectified by pre-defining a set of Stopwo
 ## Using Google-BERT Model for Analysis.
 BERT, which stands for Bidirectional Encoder Representations from Transformers, is a natural language processing (NLP) model developed by Google. It's designed to understand the context of words in a sentence by looking at the words that come before and after it. What makes BERT unique is its bidirectional approach, meaning it considers the entire context of a word by looking at both the left and right context in a sentence. BERT has revolutionized many NLP tasks by achieving state-of-the-art results in various benchmarks. Its pre-trained models can be fine-tuned for a wide range of NLP tasks such as text classification, question answering, named entity recognition, and more. I have used the preprocessed dataset to fine tune it to our needs.
 
+### Accuracy
+
+It gave commendable results on the validation set:
+![WhatsApp Image 2024-02-10 at 16 27 01_463505e1](https://github.com/InnovatorIIT/GDSC/assets/151830380/3392c9bc-af6a-451f-b504-8516d90463b2)
+
+and also, the training loss kept on decreasing on each epoch.
+
+
+
   
 
