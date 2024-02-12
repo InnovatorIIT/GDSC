@@ -17,9 +17,11 @@ The data had many demerits to consider for before making it fit to train. Some o
 * Contracted Word
 * Modern lingo
 * Mismatched text cases
+
 To address this issues we first converted all the text to lower case for uniformity, after which a spell checker was called. I have tried using two methods for spell checker:
 * Using Language ToolBox
 * Using TextBlob
+
 The Language ToolBox library gave better results and also significantly improved the grammatical accuracy of the dataset. But it was computational intensive and took more than 2s/text time duration. So trading off accuracy with time, I decided to go for TextBlob library which was doing pretty well in spell recitification. Though it wasnt giving the desired output, it improved the given dataset significantly. I have even explored two other ways for spell checking. One was probabilistic approach in which a mispelt word would be checked for in a "grammatically accurate and vocabulary rich" text file, comparing which the program would give us the most closest correct word. Another was using a GingerIt module for grammtical and vocabulary accuracy.
 
 Contracted Words and Modern Lingo were rectified by pre-defining a set of Stopwords which would be expanded to modern english format whenever a token in the set of stopwords is encountered. Also Stemming is used along with removal of stopwards and punctuations from the text. Upon Preprocessing what we could get was a refined dataset of keywords which would be meaningful for the sentiment analusis model.
