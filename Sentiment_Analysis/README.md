@@ -35,7 +35,12 @@ It gave commendable results on the validation set:
 
 ![WhatsApp Image 2024-02-10 at 16 27 01_463505e1](https://github.com/InnovatorIIT/GDSC/assets/151830380/3392c9bc-af6a-451f-b504-8516d90463b2)
 
-and also, the training loss kept on decreasing on each epoch.
+and also, the training loss kept on decreasing on each epoch:
+
+![WhatsApp Image 2024-02-10 at 16 26 39_5ccd4b2e](https://github.com/InnovatorIIT/GDSC/assets/151830380/eccc562a-5846-4711-9432-2189d882de59)
+
+Training was not completed because of runtime restrictions. The model has been saved which can furthur be used to deploy it in streamlit!
+
 
 
 
