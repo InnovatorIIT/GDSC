@@ -2,4 +2,14 @@
   Sentiment analysis is a natural language processing (NLP) technique used to determine the sentiment or emotional tone expressed in a piece of text. It involves     analyzing the text to identify whether it conveys positive, negative, or neutral sentiment.Sentiment analysis has numerous applications across various domains, including social media monitoring, customer feedback analysis, brand reputation management, market research, and more. It helps organizations understand public opinion, customer sentiment, and trends, allowing them to make data-driven decisions and take appropriate actions based on the insights gained from analyzing text data.
 
 # About Problem Statement
-We have been provided with a dataset on which we have to design a Machine Learning Algorithm which can perform sentiment analysis Accurately. The data provided was skewed in many sense, due to which intial accuracy of Machine Learning model is supposed to be of high bias and low variance. Hence the model works good enough only in training data, and tends to underfit on new data. The data provided was of about 2700
+We have been provided with a dataset on which we have to design a Machine Learning Algorithm which can perform sentiment analysis Accurately. The data provided was skewed in many sense, due to which intial accuracy of Machine Learning model is supposed to be of high bias and low variance. Hence the model works good enough only in training data, and tends to underfit on new data. The data provided was of about 27000 with three classes of Positive, Negative and Neutral.
+
+* There were 11k instances for neutral class
+* There were 8.5k instances for positive class
+* There were 7.7k instances for negative class
+
+# Approach
+I have used two python programs to solve this PS. One for preprocessing the given data and one model which runs of preprocessed data.
+
+## Preprocessing
+
