@@ -13,3 +13,7 @@ Models which can be tried:
 * AlexNet
 
 This models where not tried due to time restrictions
+
+Accuracy/Loss vs Epoch during Training:
+
+![download](https://github.com/InnovatorIIT/GDSC/assets/151830380/498cd2ab-ecda-4b12-af41-167e1d75d1e3)
