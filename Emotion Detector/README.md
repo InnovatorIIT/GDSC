@@ -2,7 +2,9 @@ This is emotion detection program.
 
 I have deployed it in streamlit and it predicts pretty well
 
-It has an accuracy of over 0.6 in validation data set
+It has an accuracy of over 0.6 in testing data set
+
+![Screenshot 2024-02-13 162101](https://github.com/InnovatorIIT/GDSC/assets/151830380/b2ec0034-4ba1-4033-90fd-e048d10bea30)
 
 Data set used in FERN dataset for emotion detection
 
