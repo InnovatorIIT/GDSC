@@ -14,7 +14,7 @@ Models which can be tried:
 * ResNet
 * AlexNet
 
-This models where not tried due to time restrictions
+This models where not tried due to time restrictions. Currently working on AlexNet, would push the model as soon as completed.
 
 Accuracy/Loss vs Epoch during Training:
 
