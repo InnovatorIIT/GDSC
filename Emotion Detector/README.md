@@ -1,5 +1,9 @@
 This is emotion detection program. 
 
+You can download the model from here:
+
+https://utweb.rainberrytv.com/gui/share.html#link=magnet%3A%3Fxt%3Durn%3Abtih%3A0a725d7bf11d021ddb9337388b5565f49100b104%26dn%3Dmodel.h5%26tr%3Dudp%253a%252f%252ftracker.openbittorrent.com%253a80%252fannounce%26tr%3Dudp%253a%252f%252ftracker.opentrackr.org%253a1337%252fannounce
+
 I have deployed it in streamlit and it predicts pretty well
 
 It has an accuracy of over 0.6 in testing data set
